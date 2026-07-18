@@ -1,0 +1,22 @@
+[MASTER]
+jobs=4
+limit-inference-results=100
+persistent=yes
+unsafe-load-any-extension=no
+extension-pkg-allow-list=
+
+[MESSAGES CONTROL]
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    too-many-arguments,
+    too-many-instance-attributes,
+    too-few-public-methods,
+
+[FORMAT]
+max-line-length=100
+
+[DESIGN]
+max-attributes=8
+max-arguments=6
